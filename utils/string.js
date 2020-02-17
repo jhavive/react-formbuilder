@@ -1,0 +1,1 @@
+export const spaceToUnderscore = str => str.toLowerCase().split(' ').join('_')

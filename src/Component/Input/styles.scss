@@ -1,0 +1,14 @@
+@import "../../../assets/scss/global.scss";
+
+.inputBox {
+  input {
+    border: 1px solid $grey4;
+    display: inline-block;
+    width: 300px;
+    margin: 10px 0 15px;
+    @include mobile {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}

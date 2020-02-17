@@ -1,0 +1,67 @@
+@import '../../../assets/scss/global.scss';
+
+.custom-button{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: .25rem;
+    font-size: 14px;
+    // margin-bottom: 5px;
+    // margin-right: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}
+.custom-button.primary  {
+
+}
+.custom-button.secondary{
+
+}
+.custom-button.success{
+
+}
+.custom-button.failure{
+
+}
+.custom-button.warning{
+    color:#fff;
+    background-color:#f4c22b;
+    border-color:#f4c22b;
+    &:hover{
+        color:#fff;
+        background-color:#ecb50c;
+        border-color:#e0ab0c;
+    }
+}
+.custom-button.info{
+    color:#fff;
+    background-color:#3ebfea;
+    border-color:#3ebfea;
+    &:hover{
+        color:#fff;
+        background-color:#1cb4e6;
+        border-color:#18acdd;
+    }
+}
+.custom-button.light{
+    color:#37474f;
+    background-color:#f2f2f2;
+    border-color:#f2f2f2;
+    &:hover{
+        color:#37474f;
+        background-color:#dfdfdf;
+        border-color:#d9d9d9;
+    }
+}
+.custom-button.dark{
+    color: #fff;
+    background-color: #37474f;
+    border-color: #37474f;
+    &:hover{
+        color: #fff;
+        background-color: #273338;
+        border-color: #222c31
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../../../../assets/scss/global.scss';
+
+// .form-builder-container{
+//     position: relative;
+//     width: 100%;
+    .dragable-container{
+        // position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        .custom-form-container{
+            border: 1px solid grey;
+            flex: 9;
+            height: 100%;
+            margin: 0px 10px;
+            min-height: 200px;
+            padding:20px;
+        }
+        .input-type-container{
+            border: 1px solid grey;
+            flex: 2;
+            padding: 10px;
+            .input-selector{
+                padding: 10px 0px;
+                text-align: center;
+                border: 1px dashed grey;
+                cursor: pointer;
+                margin-bottom: 20px;
+            }
+        }
+        .extra-info{
+            flex:3;
+            border: 1px solid grey;
+            padding: 10px;
+            .inputBox input{
+                width: unset;
+            }
+        }
+
+    }
+
+    
+// }
+
