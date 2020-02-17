@@ -1,6 +1,6 @@
 {
-  "name": "e-kom-ui",
-  "version": "1.0.0",
+  "name": "react-formbuilder",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,14 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/kodeiya/e-kom-ui.git"
+    "url": "git+ssh://git@github.com:jhavive/react-formbuilder.git"
   },
   "author": "Vivek Jha",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/kodeiya/e-kom-ui/issues"
-  },
-  "homepage": "https://app.kodeiya.com",
   "dependencies": {
     "node-sass": "^4.11.0",
     "react": "^16.0.0",
